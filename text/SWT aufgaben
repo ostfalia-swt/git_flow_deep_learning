@@ -1,0 +1,35 @@
+Why is version control important?
+Strukuriertes Arbeiten ermöglichen
+Backup
+
+What is a commit and what information does it hold?
+Commitmessage (Kommentar)
+Nur die Änderungen
+
+What is the commit graph?
+Enthält Commits und ihre Beziehung zueinander (sozusagen Inhaltsverzeichnis)
+
+What is a branch?
+Pointer der auf bestimmten Commit zeigt.
+Ein Branch ist ein Pointer der auf den bestimmten commit zeigt, ein weiterer Arm der Baums
+Ein Branch repräsentiert eine unabhängige Entwicklungslinie
+
+Name and describe one specific branching system.
+GitFlow
+Neue Entwicklungen in feature branches
+Develop Branch = fertige Features -> was für den Kunden entwickelt wird (weiter als Master)
+Release: ein Release branch entsteht aus dem develop branch und wird bugfixed im release branch.
+Fertiger Release kommt in den Master.
+Hotfix: Wenn es im Master branch ein bug auftritt.
+
+Name three common types of branches.
+Master
+develop
+feature
+hotfix
+
+What is a merge?
+Änderungen von einem anderen branch übernehmen.
+
+Describe a specific situation step by step that results in a merge conflict.
+2 oder mehr Entwickler im selben branch die beide in die selbe zeile etwas pushen.
